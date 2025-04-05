@@ -131,3 +131,22 @@ body {
     gap: 2rem;
     grid-template-columns: repeat(4 ,1fr);
 }
+
+.skill-item {
+    font-size: 1rem;
+    padding: 0.8em 2em;
+    background-color: #1e293b; /* Matches the skills section background */
+    border: 3px solid #4F46E5; /* Blue border */
+    border-radius: 1em;
+    color: #fff; /* White text */
+    font-weight: bolder;
+    font-family: 'Funnel Display', sans-serif; /* Apply Funnel Display font */
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px #4F46E5; /* Blue shadow */
+    text-align: center;
+    cursor: pointer;
+}
+
+.skill-item:hover {
+    transform: translate(5px, -5px); /* Creates the hover effect */
+}
